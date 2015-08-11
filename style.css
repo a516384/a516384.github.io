@@ -1,0 +1,40 @@
+#header-bar{
+    height :40px;
+    background-color:black;
+}
+h1.title {
+    width: 60%;
+    margin: 0 auto;
+    padding :50px;
+    font-size:5em;
+    font-weight:900;
+    text-align: center;
+}
+.name {
+    text-align: center;
+    font-weight:900;
+}
+.line {
+    height :10px;
+    background-color:black;
+}
+ul.about {
+    margin-top: 30px;
+}
+li.about {
+    margin-top: 20px;
+    font-size:2em;
+    font-weight:900;
+}
+.info {
+    margin: 50px;
+}
+.box-bottom {
+    border: solid 5px black;
+    font-size: 3em;
+    font-weight:900;
+    color:black;
+}
+
+
+

@@ -4,11 +4,45 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>自己紹介ページ</title>
+    <link href="style.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  </head>
+     <style>
+          body { background: LightGrey; 
+          }
+        </style>
+     </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div id="header-bar"></div>
+    <h1 class="title">About me</h1>
+
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1">
+        <img class="img-rounded" src="sample.jpg" alt="sample.jpg" width="100%">
+      </div>
+
+      <div class="col-md-5">
+        <h2 class="name">浅見　志津</h2>
+        <div class="line"></div>
+        <ul class="about">
+          <li class="about">三鷹市在住。</li>
+          <li class="about">特技は書道</li>
+          <li class="about">趣味はボクシング</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row info">
+      <div class="col-md-3 col-md-offset-2">
+        <a class="box-bottom" href="#">アプリ１</a>
+      </div>
+      <div class="col-md-3">
+        <a class="box-bottom" href="#">アプリ２</a>
+      </div>
+      <div class="col-md-3">
+        <a class="box-bottom" href="#">アプリ３</a>
+      </div>
+    </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
